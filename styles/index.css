@@ -41,6 +41,7 @@ table { border-collapse:collapse; table-layout:fixed; width:100%; }
 .contain table tbody {  }
 .contain table tbody tr {  }
 .contain table tbody tr td { border: 1px solid #ccc; padding: 1px 5px; text-align: center; }
+.contain table tbody tr td.date { font-size: 14px; }
 .contain table tbody tr td.left { text-align: left; }
 .contain table .origin { margin-right: 10px; }
 

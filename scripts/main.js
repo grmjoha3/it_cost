@@ -1,6 +1,7 @@
 $(window).load(function(){
-    $("#containBox").load("views/2023-03.html");
+});
 
+$(document).ready(function(){
     // 단체
     var allLen = $("#allTbl tbody tr").length;
     var allSum = 0;
@@ -39,8 +40,4 @@ $(window).load(function(){
         mod = indiOrigin - sum;
         $("#indiTbl tbody tr[user='"+mem[i]+"'].foot.bttm .mod").text(mod.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','));
     }
- 
-});
-
-$(document).ready(function(){
 });

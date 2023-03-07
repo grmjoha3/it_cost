@@ -31,7 +31,7 @@ table { border-collapse:collapse; table-layout:fixed; width:100%; }
 .contain .inner { padding: 0 10px; }
 
 .contain .tblWrap { overflow-x: scroll; }
-.contain .tblWrap table { min-width: 600px; }
+.contain .tblWrap table { min-width: 500px; }
 
 .contain .tblWrap .subTitBox {  }
 .contain .tblWrap .subTitBox h2 {  }
@@ -43,13 +43,15 @@ table { border-collapse:collapse; table-layout:fixed; width:100%; }
 .contain table tbody tr td { border: 1px solid #ccc; padding: 1px 5px; text-align: center; }
 .contain table tbody tr td.date { font-size: 14px; }
 .contain table tbody tr td.left { text-align: left; }
+.contain table .buy { text-align: right; }
+.contain table .sum { font-weight: 600; }
 .contain table .origin { margin-right: 10px; }
 
 .contain table tfoot { border: 1px solid #ccc; }
 .contain table tfoot tr {  }
 .contain table tfoot tr td { text-align: right; padding: 1px 10px; background: #fffff4; }
 
-.contain .indiTblBox {  }
+.contain .indiTblBox { margin-top: 15px; }
 .contain .indiTblBox tbody tr.foot {  }
 .contain .indiTblBox tbody tr.foot td { text-align: right; background: #fffff4; }
 .contain .indiTblBox tbody tr.foot.top td { border-bottom: none; }

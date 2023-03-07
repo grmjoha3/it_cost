@@ -32,10 +32,10 @@
                 <div class="subTitBox"><h2>단체 내역서</h2></div>
                 <table id="allTbl">
                     <colgroup>
-                        <col width="15%">
-                        <col width="20%">
-                        <col width="50%">
-                        <col width="15%">
+                        <col width="18%">
+                        <col width="24%">
+                        <col width="40%">
+                        <col width="18%">
                     </colgroup>
                     <thead>
                         <tr>
@@ -48,15 +48,15 @@
                     <tbody>
                         <tr>
                             <td class="date">2023-03-01</td>
-                            <td class="left">초심삼겹살</td>
-                            <td class="left">삼겹살4인분</td>
-                            <td class="price">3000</td>
+                            <td class="left">-</td>
+                            <td class="left">테스트1</td>
+                            <td class="buy">3000</td>
                         </tr>
                         <tr>
                             <td class="date">2023-03-02</td>
-                            <td class="left">점심</td>
-                            <td class="left">4인분</td>
-                            <td class="price">1000</td>
+                            <td class="left">-</td>
+                            <td class="left">테스트2</td>
+                            <td class="buy">2000</td>
                         </tr>
                     </tbody>
                     <tfoot>
@@ -82,11 +82,11 @@
                 <div class="subTitBox"><h2>개인별 내역서</h2></div>
                 <table id="indiTbl">
                     <colgroup>
-                        <col width="10%">
-                        <col width="15%">
-                        <col width="20%">
-                        <col width="40%">
-                        <col width="15%">
+                        <col width="13%">
+                        <col width="18%">
+                        <col width="22%">
+                        <col width="30%">
+                        <col width="17%">
                     </colgroup>
                     <thead>
                         <tr>
@@ -100,35 +100,23 @@
                     <tbody>
                         <!-- 영태님 -->
                         <tr user="KYT">
-                            <td rowspan="3">김영태</td>
-                            <td class="date">2023-03-01</td>
-                            <td class="left">인터파크</td>
-                            <td class="left">책</td>
-                            <td class="buy">1000</td>
-                        </tr>
-                        <tr user="KYT">
-                            <td class="date">2023-03-02</td>
-                            <td class="left">헬스</td>
-                            <td class="left">3개월권</td>
-                            <td class="buy">5000</td>
-                        </tr>
-                        <tr user="KYT">
-                            <td class="date">2023-03-03</td>
-                            <td class="left">쿠팡</td>
-                            <td class="left">모니터</td>
-                            <td class="buy">13000</td>
+                            <td rowspan="1">김영태</td>
+                            <td class="date">2023-03-00</td>
+                            <td class="left">-</td>
+                            <td class="left">-</td>
+                            <td class="buy">-</td>
                         </tr>
                         <tr class="foot top" user="KYT">
                             <td colspan="5">
-                                <span>합계</span>
+                                <span>합계: </span>
                                 <span class="sum"></span>
                             </td>
                         </tr>
                         <tr class="foot bttm" user="KYT">
                             <td colspan="5">
-                                <span>초기지원금</span>
+                                <span>초기지원금: </span>
                                 <span class="origin"></span>
-                                <span>잔액</span>
+                                <span>잔액: </span>
                                 <span class="mod"></span>
                             </td>
                         </tr>
@@ -137,27 +125,73 @@
                         <tr user="PAH">
                             <td rowspan="2">박아현</td>
                             <td class="date">2023-03-01</td>
-                            <td class="left">빵집</td>
-                            <td class="left">단팥크림빵</td>
+                            <td class="left">테스트1</td>
+                            <td class="left">테스트1</td>
                             <td class="buy">500</td>
                         </tr>
                         <tr user="PAH">
                             <td class="date">2023-03-03</td>
-                            <td class="left">스타벅스</td>
-                            <td class="left">돌체라떼</td>
+                            <td class="left">테스트2</td>
+                            <td class="left">테스트2</td>
                             <td class="buy">700</td>
                         </tr>
                         <tr class="foot top" user="PAH">
                             <td colspan="5">
-                                <span>합계</span>
+                                <span>합계: </span>
                                 <span class="sum"></span>
                             </td>
                         </tr>
                         <tr class="foot bttm" user="PAH">
                             <td colspan="5">
-                                <span>초기지원금</span>
+                                <span>초기지원금: </span>
                                 <span class="origin"></span>
-                                <span>잔액</span>
+                                <span>잔액: </span>
+                                <span class="mod"></span>
+                            </td>
+                        </tr>
+
+                        <!-- 지형님 -->
+                        <tr user="CJH">
+                            <td rowspan="1">최지형</td>
+                            <td class="date">2023-03-00</td>
+                            <td class="left">-</td>
+                            <td class="left">-</td>
+                            <td class="buy">-</td>
+                        </tr>
+                        <tr class="foot top" user="CJH">
+                            <td colspan="5">
+                                <span>합계: </span>
+                                <span class="sum"></span>
+                            </td>
+                        </tr>
+                        <tr class="foot bttm" user="CJH">
+                            <td colspan="5">
+                                <span>초기지원금: </span>
+                                <span class="origin"></span>
+                                <span>잔액: </span>
+                                <span class="mod"></span>
+                            </td>
+                        </tr>
+
+                        <!-- 영민님 -->
+                        <tr user="KYM">
+                            <td rowspan="1">김영민</td>
+                            <td class="date">2023-03-00</td>
+                            <td class="left">-</td>
+                            <td class="left">테스트1</td>
+                            <td class="buy">300</td>
+                        </tr>
+                        <tr class="foot top" user="KYM">
+                            <td colspan="5">
+                                <span>합계: </span>
+                                <span class="sum"></span>
+                            </td>
+                        </tr>
+                        <tr class="foot bttm" user="KYM">
+                            <td colspan="5">
+                                <span>초기지원금: </span>
+                                <span class="origin"></span>
+                                <span>잔액: </span>
                                 <span class="mod"></span>
                             </td>
                         </tr>

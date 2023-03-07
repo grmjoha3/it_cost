@@ -9,7 +9,7 @@ $(document).ready(function(){
     var allMod = 0;
     // 단체 합계
     for(var i=0; i<allLen; i++){
-        var price = parseInt($("#allTbl tbody tr").eq(i).find(".price").text());
+        var price = parseInt($("#allTbl tbody tr").eq(i).find(".buy").text());
         allSum += price;
     }
     $("#allTbl .sum").text(allSum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','));
